@@ -41,4 +41,19 @@ export const hours: Array<TimeRange> = [
     finish: new Date(2023, 0, 6, 21, 0, 0),
     comentary: 'Enrutamiento y navegacion de la app',
   },
+  {
+    init: new Date(2023, 0, 6, 20, 0, 0),
+    finish: new Date(2023, 0, 6, 21, 0, 0),
+    comentary: 'Implementación de plantillas de Material UI',
+  },
+  {
+    init: new Date(2023, 0, 9, 12, 30, 0),
+    finish: new Date(2023, 0, 9, 13, 0, 0),
+    comentary: 'Reunion Revision IU web',
+  },
+  {
+    init: new Date(2023, 0, 9, 15, 15, 0),
+    finish: new Date(2023, 0, 9, 16, 30, 0),
+    comentary: 'Reunion: Introduccion a Litto',
+  },
 ]

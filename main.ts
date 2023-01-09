@@ -7,11 +7,10 @@ export interface TimeRange {
 }
 
 export const sumHours = (hours: TimeRange[]): number => {
-
-  const calculate_difference = ({ init, finish}: TimeRange): number => 
+  const calculate_difference = ({ init, finish }: TimeRange): number =>
     finish.getHours() - init.getHours()
 
-  const sumator = (accumulator: number, element: number): number => 
+  const sumator = (accumulator: number, element: number): number =>
     accumulator + element
 
   const initial_value = 0
