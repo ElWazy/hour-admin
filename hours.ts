@@ -147,4 +147,24 @@ export const hours: Array<TimeRange> = [
     finish: new Date(2023, 0, 20, 22, 0, 0),
     comentary: "routing roles",
   },
+  {
+    init: new Date(2023, 0, 23, 10, 30, 0),
+    finish: new Date(2023, 0, 23, 18, 0, 0),
+    comentary: "routing pages",
+  },
+  {
+    init: new Date(2023, 0, 25, 15, 15, 0),
+    finish: new Date(2023, 0, 25, 23, 0, 0),
+    comentary: "s3 file button",
+  },
+  {
+    init: new Date(2023, 0, 26, 10, 30, 0),
+    finish: new Date(2023, 0, 26, 18, 30, 0),
+    comentary: "file button validations & filed dashboard and ticket view",
+  },
+  {
+    init: new Date(2023, 0, 27, 13, 0, 0),
+    finish: new Date(2023, 0, 27, 21, 0, 0),
+    comentary: "SendGrid integration and filters",
+  },
 ];
