@@ -167,4 +167,29 @@ export const hours: Array<TimeRange> = [
     finish: new Date(2023, 0, 27, 21, 0, 0),
     comentary: "SendGrid integration and filters",
   },
+  {
+    init: new Date(2023, 0, 30, 12, 30, 0),
+    finish: new Date(2023, 0, 30, 20, 30, 0),
+    comentary: "Filtros",
+  },
+  {
+    init: new Date(2023, 0, 31, 10, 0, 0),
+    finish: new Date(2023, 0, 31, 18, 0, 0),
+    comentary: "pre produccion fixes & start hour viewer",
+  },
+  {
+    init: new Date(2023, 1, 1, 12, 30, 0),
+    finish: new Date(2023, 1, 1, 20, 30, 0),
+    comentary: "hour viewer component",
+  },
+  {
+    init: new Date(2023, 1, 2, 13, 0, 0),
+    finish: new Date(2023, 1, 2, 21, 0, 0),
+    comentary: "hour viewer filters & start ticket viewer",
+  },
+  {
+    init: new Date(2023, 1, 3, 9, 30, 0),
+    finish: new Date(2023, 1, 3, 17, 30, 0),
+    comentary: "ticket viewer update",
+  },
 ];
