@@ -1,6 +1,7 @@
 import { TimeRange } from "./main.ts";
 
 export const hours: Array<TimeRange> = [
+  // semana 1
   {
     init: new Date(2023, 0, 3, 11, 30, 0),
     finish: new Date(2023, 0, 3, 14, 30, 0),
@@ -46,6 +47,7 @@ export const hours: Array<TimeRange> = [
     finish: new Date(2023, 0, 6, 21, 0, 0),
     comentary: "Implementación de plantillas de Material UI",
   },
+  // Semana 2
   {
     init: new Date(2023, 0, 9, 12, 30, 0),
     finish: new Date(2023, 0, 9, 13, 0, 0),
@@ -97,6 +99,7 @@ export const hours: Array<TimeRange> = [
     finish: new Date(2023, 0, 13, 17, 0, 0),
     comentary: "termino de integracion django-storage",
   },
+  // Semana 3
   {
     init: new Date(2023, 0, 16, 9, 35, 0),
     finish: new Date(2023, 0, 16, 13, 35, 0),
@@ -147,6 +150,7 @@ export const hours: Array<TimeRange> = [
     finish: new Date(2023, 0, 20, 22, 0, 0),
     comentary: "routing roles",
   },
+  // Semana 4
   {
     init: new Date(2023, 0, 23, 10, 30, 0),
     finish: new Date(2023, 0, 23, 18, 0, 0),
@@ -167,6 +171,7 @@ export const hours: Array<TimeRange> = [
     finish: new Date(2023, 0, 27, 21, 0, 0),
     comentary: "SendGrid integration and filters",
   },
+  // Semana 5
   {
     init: new Date(2023, 0, 30, 12, 30, 0),
     finish: new Date(2023, 0, 30, 20, 30, 0),
@@ -191,5 +196,94 @@ export const hours: Array<TimeRange> = [
     init: new Date(2023, 1, 3, 9, 30, 0),
     finish: new Date(2023, 1, 3, 17, 30, 0),
     comentary: "ticket viewer update",
+  },
+  // Semana 6
+  {
+    init: new Date(2023, 1, 6, 10, 0, 0),
+    finish: new Date(2023, 1, 6, 18, 0, 0),
+    comentary: "module creator & company creator",
+  },
+  {
+    init: new Date(2023, 1, 7, 10, 0, 0),
+    finish: new Date(2023, 1, 7, 18, 0, 0),
+    comentary: "martes",
+  },
+  {
+    init: new Date(2023, 1, 8, 10, 0, 0),
+    finish: new Date(2023, 1, 8, 18, 0, 0),
+    comentary: "miercoles",
+  },
+  {
+    init: new Date(2023, 1, 9, 10, 0, 0),
+    finish: new Date(2023, 1, 9, 18, 0, 0),
+    comentary: "jueves",
+  },
+  {
+    init: new Date(2023, 1, 10, 10, 0, 0),
+    finish: new Date(2023, 1, 10, 18, 0, 0),
+    comentary: "viernes!",
+  },
+  // Semana 7
+  {
+    init: new Date(2023, 1, 13, 10, 0, 0),
+    finish: new Date(2023, 1, 13, 18, 0, 0),
+    comentary: "lunes",
+  },
+  {
+    init: new Date(2023, 1, 14, 10, 0, 0),
+    finish: new Date(2023, 1, 14, 18, 0, 0),
+    comentary: "martes",
+  },
+  {
+    init: new Date(2023, 1, 15, 10, 0, 0),
+    finish: new Date(2023, 1, 15, 18, 0, 0),
+    comentary: "miercoles",
+  },
+  {
+    init: new Date(2023, 1, 16, 10, 0, 0),
+    finish: new Date(2023, 1, 16, 18, 0, 0),
+    comentary: "jueves",
+  },
+  {
+    init: new Date(2023, 1, 17, 10, 0, 0),
+    finish: new Date(2023, 1, 17, 18, 0, 0),
+    comentary: "viernes",
+  },
+  // Semana 8
+  {
+    init: new Date(2023, 1, 20, 10, 0, 0),
+    finish: new Date(2023, 1, 20, 18, 0, 0),
+    comentary: "creacion de reporte pdf con script y template",
+  },
+  {
+    init: new Date(2023, 1, 21, 10, 0, 0),
+    finish: new Date(2023, 1, 21, 18, 0, 0),
+    comentary: "varios fixes, relacionados con arreglar formularios",
+  },
+  {
+    init: new Date(2023, 1, 22, 10, 0, 0),
+    finish: new Date(2023, 1, 22, 18, 0, 0),
+    comentary: "miercoles",
+  },
+  {
+    init: new Date(2023, 1, 23, 10, 0, 0),
+    finish: new Date(2023, 1, 23, 18, 0, 0),
+    comentary: "jueves",
+  },
+  {
+    init: new Date(2023, 1, 24, 10, 0, 0),
+    finish: new Date(2023, 1, 24, 18, 0, 0),
+    comentary: "viernes",
+  },
+  // Semana 9
+  {
+    init: new Date(2023, 1, 27, 10, 0, 0),
+    finish: new Date(2023, 1, 27, 18, 0, 0),
+    comentary: "lunes",
+  },
+  {
+    init: new Date(2023, 1, 28, 10, 0, 0),
+    finish: new Date(2023, 1, 28, 18, 0, 0),
+    comentary: "martes",
   },
 ];
